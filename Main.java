@@ -10,9 +10,10 @@ public class Main
 
     {
         int option;
-        System.out.println("Que calcular el area 1. triangulo 2. Cuadrado 3. Circulo");
+        System.out.println("De que figura geometrica quiere calcular el area 1.Triangulo 2.Cuadrado 3.Circulo 4. Rectangulo");
+
         option = sc.nextInt();
-        if (option < 1 || option >= 4)
+        if (option < 1 || option > 4)
         {
             System.out.println("opcion no valida");
         }
@@ -31,7 +32,6 @@ public class Main
             height = sc.nextDouble();
             triangle1.setHeight(height);
             System.out.println("el area del triangulo es de " + triangle1.CalculateArea());
-
         }
 
         if (option == 2)
@@ -54,6 +54,23 @@ public class Main
             System.out.println("el area del circulo es de " + circle1.CalculateArea());
 
         }
+
+        if (option == 4)
+        {
+            double sideA ;
+            double sideB ;
+
+            Rectangle rectangle1 = new Rectangle();
+            System.out.println("ingrese medida primer lado");
+            sideA = sc.nextDouble();
+            rectangle1.setSideA(sideA);
+
+            System.out.println("ingrese medida segundo lado");
+            sideB = sc.nextDouble();
+            rectangle1.setSideB(sideB);
+            System.out.println("el area del rectangulo es de " + rectangle1.CalculateArea());
+        }
+
 
     }
 
