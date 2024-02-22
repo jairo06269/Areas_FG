@@ -31,7 +31,7 @@ public class Main
             height = sc.nextDouble();
             triangle1.setHeight(height);
             System.out.println("el area del triangulo es de " + triangle1.CalculateArea());
-            ;
+
         }
 
         if (option == 2)
@@ -42,7 +42,7 @@ public class Main
             side = sc.nextDouble();
             square1.setSide(side);
             System.out.println("el area del cuadrado es de " + square1.CalculateArea());
-            ;
+
         }
         if (option == 3)
         {
@@ -52,7 +52,7 @@ public class Main
             radius = sc.nextDouble();
             circle1.setRadius(radius);
             System.out.println("el area del circulo es de " + circle1.CalculateArea());
-            ;
+
         }
 
     }
