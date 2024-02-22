@@ -2,7 +2,7 @@ package co.edu.sena;
 
 public class Circle
 {
-    double radius;
+    private double radius;
     public void setRadius(double radius)
     {
         this.radius = radius;
