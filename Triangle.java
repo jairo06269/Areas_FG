@@ -1,17 +1,17 @@
 package co.edu.sena;
 public class Triangle
 {
-    private int base=0;
-    private int height=0;
-    public void setBase(int base)
+    private double base=0;
+    private double height=0;
+    public void setBase(double base)
     {
         this.base = base;
     }
-    public void setHeight(int height)
+    public void setHeight(double height)
     {
         this.height = height;
     }
-    public int CalculateArea ()
+    public double CalculateArea ()
   {
     return (base * height) /2;
   }
