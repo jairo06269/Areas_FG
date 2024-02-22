@@ -61,11 +61,11 @@ public class Main
             double sideB ;
 
             Rectangle rectangle1 = new Rectangle();
-            System.out.println("ingrese medida primer lado");
+            System.out.println("ingrese medida altura");
             sideA = sc.nextDouble();
             rectangle1.setSideA(sideA);
 
-            System.out.println("ingrese medida segundo lado");
+            System.out.println("ingrese medida Base");
             sideB = sc.nextDouble();
             rectangle1.setSideB(sideB);
             System.out.println("el area del rectangulo es de " + rectangle1.CalculateArea());
